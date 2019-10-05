@@ -1,20 +1,22 @@
-# **Self-Driving Car Engineer Nanodegree**
-# **Project: Behavioral Cloning**
+# **Self-Driving Car Engineer**
+# **Project: Highway Driving Path Planning**
 
 ## MK
 
 Overview
 ---
-Develop a convolutional neural network model using keras to clone driving behavior. Train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle.
+Develop a path planner to safely navigate around a virtual highway with other traffic that is driving +-10 MPH of the 50 MPH speed limit.
 
 The Project
 ---
 The goals/steps for this project:
-* Use simulator to collect data for good driving behavior
-* Build convolution neural network in Keras, that predicts steering angles from images
-* Train and validate the model with a training and validation set
-* Test that the model successfully drives around track one without leaving the road
+* The ego-car should maintain vehicle speed close to 50 mph, whenever possible
+* Ego-car should atleast complete one complete loop around the 6946 (m) length of highway
+* Ego-car should take a little over 5 minutes to complete 1 loop
+* Ego-car should maintain: (acceleration < 10 m/s^2) and (jerk (rate of change of acceleration) < 10 m/s^3)
+* 
 
+, which means passing slower traffic when possible, note that other cars will try to change lanes too. The car should avoid hitting other cars at all cost as well as driving inside of the marked road lanes at all times, unless going from one lane to another. The car should be able to make one complete loop around the 6946m highway. Since the car is trying to go 50 MPH, it should take a little over 5 minutes to complete 1 loop. Also the car should not experience total acceleration over 10 m/s^2 and jerk that is greater than 10 m/s^3.
 
 [//]: # (Image References)
 
