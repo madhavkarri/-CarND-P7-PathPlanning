@@ -5,18 +5,18 @@
 
 Overview
 ---
-Develop a path planner to safely navigate around a virtual highway with other traffic that is driving +-10 MPH of the 50 MPH speed limit.
+Develop a path planner in c++ to safely navigate around a virtual highway with other traffic that is driving +/-10 MPH of the 50 MPH speed limit.
 
 The Project
 ---
 The goals/steps for this project:
-* The ego-car should maintain vehicle speed close to 50 mph, whenever possible
-* Ego-car should atleast complete one complete loop around the 6946 (m) length of highway
+* Ego-car should maintain vehicle speed close to 50 mph, whenever possible
+* Ego-car must avoid hitting other cars during all manuvers
+* Ego-car must drive inside of the marked road lanes, except when changing lanes
+* Ego-car must atleast complete one complete loop around the 6946 (m) length of highway
 * Ego-car should take a little over 5 minutes to complete 1 loop
-* Ego-car should maintain: (acceleration < 10 m/s^2) and (jerk (rate of change of acceleration) < 10 m/s^3)
-* 
+* Ego-car must maintain: (acceleration < 10 m/s^2) and (jerk (rate of change of acceleration) < 10 m/s^3)
 
-, which means passing slower traffic when possible, note that other cars will try to change lanes too. The car should avoid hitting other cars at all cost as well as driving inside of the marked road lanes at all times, unless going from one lane to another. The car should be able to make one complete loop around the 6946m highway. Since the car is trying to go 50 MPH, it should take a little over 5 minutes to complete 1 loop. Also the car should not experience total acceleration over 10 m/s^2 and jerk that is greater than 10 m/s^3.
 
 [//]: # (Image References)
 
@@ -36,19 +36,13 @@ The goals/steps for this project:
 #### 1. Files included with submission to run the simulator in autonomous mode
 
 Project includes the following files:
-* model.py containing the script to create and train the model
-* drive.py for driving the car in autonomous mode
-* model.h5 containing a trained convolution neural network 
-* MadhavKarri_CarNDP4_Writeup.md summarizes the results
+* main.cpp contains all the relevant, helper (helpers.h), and header files necessary to execute the path planner to control ego-car within the simulator 
+* helpers.h: functions "getXY" (transform from Frenet s,d coordinates to Cartesian x,y) and "distance" (Calculate distance between two points) are the two main functions defined within helpers.h
+
+* Writeup_Report.md summarizes the results
 * Final output video [Link](./Writeup_IV/video.mp4)
 
-#### 2. Functional code
-Using the Udacity provided simulator and drive.py file, the car can be driven autonomously around the track by executing 
-```sh
-python drive.py model.h5
-```
-
-#### 3. Project code (model.py)
+#### 2. Project code (model.py)
 
 The model.py file contains the code for the following set of tasks.
 * Load all images and steering angles from memory
