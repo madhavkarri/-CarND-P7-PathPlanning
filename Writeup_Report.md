@@ -20,11 +20,7 @@ The goals/steps for this project:
 
 [//]: # (Image References)
 
-[image1]: ./Writeup_IV/CNNModelSummary.png "CNNModelSummary"
-[image2]: ./Writeup_IV/CNNArch.png "CNNArch"
-[image3]: ./Writeup_IV/CLD_Fwd.png "CLD_Fwd"
-[image4]: ./Writeup_IV/CLD_Rwd.png "CLD_Rwd"
-
+[image1]: ./Writeup_IV/HDPP_FRS.png "HDPP_FRS"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/432/view) Points
 
@@ -38,8 +34,9 @@ The goals/steps for this project:
 Project includes the following files:
 * main.cpp contains all the relevant, helper (helpers.h), and header files necessary to execute the path planner to control ego-car within the simulator 
 * helpers.h: functions "getXY" (transform from Frenet s,d coordinates to Cartesian x,y) and "distance" (Calculate distance between two points) are the two main functions defined within helpers.h
-
 * Writeup_Report.md summarizes the results
+* The first attempt resulted in a distance of 38.9 miles without incident
+* ![][image1]
 * Final output video [Link](https://www.youtube.com/watch?v=G4B1sXR3a6I&t=10s)
 
 #### 2. Project code (model.py)
