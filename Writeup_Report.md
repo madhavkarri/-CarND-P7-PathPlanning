@@ -45,8 +45,14 @@ Project includes the following files:
 The main.cpp file contains code for the following set of tasks:
 * Read/load map data to acquire highway waypoint data [Link](./src/main.cpp#L33-L59)
 * Connect to highway simulator using [micro-websocket](https://github.com/uNetworking/uWebSockets). Websocket handles two-way data transfer between planner and simulator
-#### Sensing 
-Gather the below listed data from simulator [Link](./src/main.cpp#L80-L102):
-  - Ego car localization data
-  - Previous path used by the simulator
-  - Localization data of other cars
+#### Sensing
+Gather below listed data from simulator [Link](./src/main.cpp#L80-L102):
+* Ego car localization data
+* Previous path used by the simulator
+* Localization data of other cars
+#### Prediction [Link](./src/main.cpp#L110-L165):
+* Based on data from sensing predict other cars localization with respect to ego car. Detect whether other cars are present ahead, left, right of ego car
+#### Behavior Planning and Trajectroy Generation[Link](./src/main.cpp#L165-L350):
+Behavior Planning:
+
+
