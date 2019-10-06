@@ -27,7 +27,7 @@ The goals/steps for this project:
 ### Consider the rubric points individually and describe how each point has been addressed.
 
 ---
-### Files Submitted & Code Quality
+### Files Submitted
 
 #### 1. Files included with submission to run the simulator in autonomous mode
 
