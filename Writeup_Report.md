@@ -15,7 +15,7 @@ The goals/steps for this project:
 * Ego-car must drive inside of the marked road lanes, except when changing lanes
 * Ego-car must atleast complete one complete loop around the 6946 (m) length of highway
 * Ego-car should take a little over 5 minutes to complete 1 loop
-* Ego-car must maintain: (acceleration < 10 m/s^2) and (jerk: rate of change of acceleration) < 10 m/s^3)
+* Ego-car must maintain: (acceleration < 10 m/s^2) and (jerk: rate of change of acceleration < 10 m/s^3)
 
 
 [//]: # (Image References)
