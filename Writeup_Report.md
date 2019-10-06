@@ -34,6 +34,7 @@ The goals/steps for this project:
 Project includes the following files:
 * main.cpp contains all the relevant, helper (helpers.h), and header files necessary to execute the path planner to control ego-car within the simulator 
 * helpers.h: functions "getXY" (transform from Frenet s,d coordinates to Cartesian x,y) and "distance" (Calculate distance between two points) are the two main functions defined within helpers.h
+* spline.h: a function to construct a smooth spline (piece-wise polynomial) passing through a set of X and Y points
 * Writeup_Report.md summarizes the results
 * The first attempt resulted in a distance of 38.9 miles without incident. Final output video [Link](https://www.youtube.com/watch?v=G4B1sXR3a6I&t=10s)
 ![][image1]
