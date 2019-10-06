@@ -57,8 +57,8 @@ Gather below listed data from simulator [Link](./src/main.cpp#L80-L102):
 
 #### Behavior Planning and Trajectroy Generation [Link](./src/main.cpp#L165-L350):
 #### Behavior Planning:
-* Other car ahead of ego car (impement below listed actions in )
-  - Check no car on left lane and if left lane available, switch to left lane
+* If other car ahead of ego car (impement below listed actions in )
+  - Check no other car on left lane and if left lane available, switch to left lane
   - If not, check no car on right lane and if right lane available, switch to right lane
   - Else, deccelerate ego car vehicle speed to avoid hitting other car ahead
 * If ego car not on center lane, switch to center lane if it is safe to do so
