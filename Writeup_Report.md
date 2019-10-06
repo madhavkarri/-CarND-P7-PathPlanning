@@ -39,7 +39,7 @@ Project includes the following files:
 ![][image1]
 
 
-#### 2. Project code (model.py)
+#### 2. Project code (main.cpp)
 
 The model.py file contains the code for the following set of tasks.
 * Load all images and steering angles from memory
