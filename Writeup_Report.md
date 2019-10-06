@@ -22,10 +22,6 @@ The goals/steps for this project:
 
 [image1]: ./Writeup_IV/HDPP_FRS.png "HDPP_FRS"
 
-## [Rubric](https://review.udacity.com/#!/rubrics/432/view) Points
-
-### Consider the rubric points individually and describe how each point has been addressed.
-
 ---
 ### Files Submitted
 
