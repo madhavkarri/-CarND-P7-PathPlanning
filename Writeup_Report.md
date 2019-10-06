@@ -41,7 +41,7 @@ Project includes the following files:
 
 #### 2. Project code (main.cpp)
 
-The model.py file contains the code for the following set of tasks.
+The main.cpp file contains the code for the following set of tasks:
 * Load all images and steering angles from memory
 * Data augumentation using vertical flip
 * Data normilization and centering
