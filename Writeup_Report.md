@@ -40,7 +40,7 @@ Project includes the following files:
 * helpers.h: functions "getXY" (transform from Frenet s,d coordinates to Cartesian x,y) and "distance" (Calculate distance between two points) are the two main functions defined within helpers.h
 
 * Writeup_Report.md summarizes the results
-* Final output video [Link](./Writeup_IV/video.mp4)
+* Final output video [Link](https://www.youtube.com/watch?v=G4B1sXR3a6I&t=113s)
 
 #### 2. Project code (model.py)
 
