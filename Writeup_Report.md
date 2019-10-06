@@ -5,7 +5,7 @@
 
 Overview
 ---
-Develop a path planner in c++ to safely navigate around a virtual highway with other traffic that is driving +/-10 MPH of the 50 MPH speed limit.
+Develop a path planner in c++ to safely navigate around a virtual 3 lane highway with other traffic that is driving +/-10 MPH of the 50 MPH speed limit. A successful path planner would keep inside its lane, avoid hitting other cars, and pass slower moving traffic using localization, sensor fusion, and map data.
 
 The Project
 ---
@@ -43,6 +43,7 @@ Project includes the following files:
 #### 2. Project code (main.cpp)
 
 The main.cpp file contains the code for the following set of tasks:
+* 
 * Load all images and steering angles from memory
 * Data augumentation using vertical flip
 * Data normilization and centering
