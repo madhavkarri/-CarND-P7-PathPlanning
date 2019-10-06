@@ -69,5 +69,5 @@ Gather below listed data from simulator [Link](./src/main.cpp#L80-L102):
 * New path trajectory is generated as follows:
   - Step 1: Initialize new path trajectory by adding all the waypoints from previous path trajectory
   - Step 2: To step 1 add new waypoints by using spline curve generated previously
-  - The combined total of previous and new waypoints in the new path trajectory is set to 50
+  - The combined total of previous and new waypoints in the new path trajectory is a fxed set to 50 waypoints
   - In addition, irrespective of the number of new waypoints added to the new path trajectory, the combined distance of the newly added waypoints is a fixed length
