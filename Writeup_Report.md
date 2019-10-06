@@ -54,5 +54,10 @@ Gather below listed data from simulator [Link](./src/main.cpp#L80-L102):
 * Based on data from sensing predict other cars localization with respect to ego car. Detect whether other cars are present ahead, left, right of ego car
 #### Behavior Planning and Trajectroy Generation[Link](./src/main.cpp#L165-L350):
 Behavior Planning:
-
+* Other car ahead of ego car (impement the below listed actions in )
+  - Check no car on left lane and if left lane available, switch to left lane
+  - If not, check no car on right lane and if right lane available, switch to right lane
+  - Else, deccelerate ego car vehicle speed to avoid hitting other car ahead
+* If ego car not on center lane, switch to center lane if it is safe to do so
+* If ego car vehicle speed less than maximum allowable vehicle speed (47.5 mph), accelearte ego car vehicle speed
 
