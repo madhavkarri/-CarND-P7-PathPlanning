@@ -44,4 +44,7 @@ Project includes the following files:
 
 The main.cpp file contains code for the following set of tasks:
 * Read/load map data to acquire highway waypoint data [Link](./src/main.cpp#L33-L59)
-* 
+* Connect to highway simulator using [micro-websocket](https://github.com/uNetworking/uWebSockets). Websocket handles two-way data transfer between planner and simulator
+* Gather the below listed data from simulator [Link](./src/main.cpp#L80-L102):
+  - Ego car localization data
+  - 
