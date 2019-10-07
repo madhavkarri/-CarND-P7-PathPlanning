@@ -67,7 +67,12 @@ Gather below listed data from simulator [Link](./src/main.cpp#L80-L102):
   - To the above two waypoints 3 additonal waypoints are added at increments of 30, 60, and 90 meters
   - Addition of end points from previous path trajectory to the input of spline function will result in a smooth transition between successive path trajectories
 * New path trajectory is generated as follows:
-  - Step 1: Initialize new path trajectory by adding all the waypoints from previous path trajectory
+  - Step 1: Initialize new path trajectory by adding unused waypoints from previous path trajectory
   - Step 2: To step 1 add new waypoints by using spline curve generated previously
-  - The combined total of previous and new waypoints in the new path trajectory is a fxed set to 50 waypoints
-  - In addition, irrespective of the number of new waypoints added to the new path trajectory, the combined distance of the newly added waypoints is a fixed length
+  - The combined total of previous and new waypoints in the new path trajectory is a fixed set of 50 waypoints
+  - In addition, irrespective of the number of new waypoints added to the new path trajectory, the combined distance of the newly added waypoints is a fixed length of 30 meters
+
+#### Improvization
+* In the presence of other car ahead of ego car, the ego-car does not smoothly follow the other car. Improvize the logic, may be maintain a constant pre-set distance to the other car
+* May be explore to implement finite state machines
+
