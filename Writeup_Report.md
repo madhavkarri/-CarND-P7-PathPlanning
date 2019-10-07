@@ -45,7 +45,7 @@ The main.cpp file contains code for the following set of tasks:
 #### Sensing (Telemetry)
 Gather below listed data from simulator [Link](./src/main.cpp#L80-L102):
 * Ego car localization data
-* Previous path used by the simulator
+* Previous unused path from the simulator
 * Localization data of other cars
 
 #### Prediction [Link](./src/main.cpp#L110-L165):
