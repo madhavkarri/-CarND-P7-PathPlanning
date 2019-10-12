@@ -72,7 +72,7 @@ Gather below listed data from simulator [Link](./src/main.cpp#L80-L102):
   - The combined total of previous and new waypoints in the new path trajectory is a fixed set of 50 waypoints
   - In addition, irrespective of the number of new waypoints added to the new path trajectory, the combined distance of the newly added waypoints is a fixed length of 30 meters
 
-#### Improvization
+#### Next Steps and Future Updates
 * In the presence of other car ahead of ego car, the ego-car does not smoothly follow the other car. Improvize the logic, may be maintain a constant pre-set distance to the other car
 * May be explore to implement finite state machines
 
