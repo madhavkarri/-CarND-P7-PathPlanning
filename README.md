@@ -50,7 +50,7 @@ Gather below listed data from simulator [Link](./src/main.cpp#L80-L102):
 * Localization data of other cars
 
 #### Prediction [Link](./src/main.cpp#L110-L165):
-* Based on data from sensing predict other cars localization with respect to ego car. Detect whether other cars are present ahead, left, right of ego car
+* Based on data from sensing, predict other cars localization with respect to ego car. Detect whether other cars are present ahead, left, right of ego car
 
 #### Behavior Planning and Trajectroy Generation [Link](./src/main.cpp#L165-L350):
 #### Behavior Planning:
