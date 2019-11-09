@@ -22,7 +22,8 @@ The goals/steps for this project:
 
 [image1]: ./Writeup_IV/HDPP_FRS.png "HDPP_FRS"
 
----
+#
+
 ### Files Submitted
 
 #### 1. Files included with submission to run the simulator in autonomous mode
